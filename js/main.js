@@ -115,13 +115,13 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         // Automatically change testimonials every 5 seconds
-        const interval = setInterval(nextTestimonial, 5000);
+        const interval = setInterval(nextTestimonial, 10000);
 
         // Click event for manual navigation
         nextButton.addEventListener("click", () => {
           nextTestimonial();
           clearInterval(interval); // Reset the timer when manually clicked
-          setInterval(nextTestimonial, 5000); // Restart the timer
+          setInterval(nextTestimonial, 10000); // Restart the timer
         });
       })
       .catch((error) => console.error("Error loading testimonials:", error));
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <img class="max-h-16 w-auto object-contain" 
                  src="${partner.logo}" 
                  alt="${partner.name}" 
-                 width="180" height="60">
+                 width="150" height="45">
         `).join('');
       })
       .catch((error) => console.error("Error loading partners:", error));
@@ -179,5 +179,4 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Error loading footer data:", error));
 });
-
 

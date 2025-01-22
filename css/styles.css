@@ -1,9 +1,12 @@
+
 #testimonials-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  }
+    gap: 1rem; /* Add gap for better spacing */
+    padding: 1rem; /* Add padding for smaller screens */
+}
   
   figure {
     margin: 0;
@@ -130,8 +133,14 @@
 }
 
 @media (max-width: 768px) {
+    #testimonials-container {
+        padding: 1rem;
+    }
     .packages-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    #testimonials-section{
+        height: 680px;
+        margin-top: 15px;
+    }
 }
-
