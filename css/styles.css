@@ -1,0 +1,137 @@
+#testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  figcaption div {
+    margin-bottom: 0.5rem; /* Adds spacing between name and position */
+  }
+  
+  blockquote p {
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  
+
+ /* Style the service card */
+ #services-container2 .bg-white:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+/* Adjust the logo size */
+#services-container2 .absolute img {
+    transition: transform 0.3s ease;
+}
+
+/* Optional: Add effect to logo on hover */
+#services-container2 .bg-white:hover .absolute img {
+    transform: scale(1.1);
+}
+
+
+/* Adjust the text and description styles */
+#services-container2 h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#services-container2 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.packages-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.package-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;  /* Ensure sufficient space for Get Quote button */
+}
+
+.package-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommended {
+    background: #0056b3;
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.package-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    text-align: left;
+}
+
+.package-card ul li {
+    font-size: 0.9em;
+    color: #555;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.package-card ul li::before {
+    content: '✔️';
+    color: green;
+    font-size: 1em;
+}
+
+.get-quote {
+    background: #0056b3;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.get-quote:hover {
+    background: #004494;
+}
+
+@media (max-width: 1024px) {
+    .packages-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .packages-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

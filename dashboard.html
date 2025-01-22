@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Editor Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Data Editor Dashboard</h1>
+
+        <!-- About Us Section -->
+        <div class="bg-white shadow rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">About Us</h2>
+            <form id="aboutUsForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="line1">Line 1</label>
+                    <textarea id="line1" class="w-full border-gray-300 rounded p-2" rows="2">We are an innovative social media marketing agency helping businesses craft compelling brand narrative founded in 2020 as Catchy Found Digital and later merged with the Mother Company Africa Business Warriors.</textarea>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="line2">Line 2</label>
+                    <textarea id="line2" class="w-full border-gray-300 rounded p-2" rows="3">ABW Marketing is a trailblazing social media marketing agency at the forefront of crafting compelling brand narratives for businesses...</textarea>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="author">Author</label>
+                    <input type="text" id="author" class="w-full border-gray-300 rounded p-2" value="Sylvia Kaberia, CEO">
+                </div>
+                <button type="button" class="bg-blue-500 text-white px-4 py-2 rounded">Save Changes</button>
+            </form>
+        </div>
+
+        <!-- Services Section -->
+        <div class="bg-white shadow rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">Services</h2>
+            <div id="servicesList" class="space-y-4">
+                <div class="border rounded p-4">
+                    <h3 class="text-lg font-semibold">Social Media Strategy Development</h3>
+                    <p class="text-sm text-gray-600">Develop comprehensive strategies tailored to your business goals.</p>
+                    <button class="text-blue-500 mt-2">Edit</button>
+                </div>
+                <!-- Additional services will be dynamically loaded here -->
+            </div>
+            <button type="button" class="bg-green-500 text-white px-4 py-2 rounded mt-4">Add New Service</button>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="bg-white shadow rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">Testimonials</h2>
+            <div id="testimonialsList" class="space-y-4">
+                <div class="border rounded p-4">
+                    <p class="text-sm">"We were struggling to reach our target audience until we teamed up with ABW Marketing..."</p>
+                    <span class="text-gray-600 text-sm">- Mangu Auto & Hardware, Client</span>
+                    <button class="text-blue-500 mt-2">Edit</button>
+                </div>
+                <!-- Additional testimonials will be dynamically loaded here -->
+            </div>
+            <button type="button" class="bg-green-500 text-white px-4 py-2 rounded mt-4">Add New Testimonial</button>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="bg-white shadow rounded-lg p-6">
+            <h2 class="text-2xl font-bold mb-4">Contact Info</h2>
+            <form id="contactInfoForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="location">Location</label>
+                    <input type="text" id="location" class="w-full border-gray-300 rounded p-2" value="📍 Desoto Business Square, Ruiru">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="phone">Phone</label>
+                    <input type="text" id="phone" class="w-full border-gray-300 rounded p-2" value="📞 (+254) 745 570 963">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1" for="marketingEmail">Marketing Email</label>
+                    <input type="email" id="marketingEmail" class="w-full border-gray-300 rounded p-2" value="📧 marketing@abwmarketing.co.ke">
+                </div>
+                <button type="button" class="bg-blue-500 text-white px-4 py-2 rounded">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

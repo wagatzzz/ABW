@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-white border-b-2 border-gray-100 relative">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button type="button"
+                        class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                        <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                        <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex shrink-0 items-center">
+                        <img class="h-8 w-auto" src="assets\images\logo.png" alt="ABW Logo">
+                    </div>
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex space-x-4">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <a href="index.html" class="rounded-md bg-gray-200 px-3 py-2 text-sm font-medium text-black"
+                                aria-current="page">Home</a>
+                            <a href="services.html"
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 ">Our
+                                Services</a>
+                            <a href="bundles.html"
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 ">Bundles</a>
+                            <a href="team.html"
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 ">Our
+                                Team</a>
+                            <a href="blog.html"
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 ">Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class=" absolute top-16 left-0 w-full bg-white shadow-lg hidden z-50 sm:hidden hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                    aria-current="page">Home</a>
+                <a href="services.html"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">Our
+                    Services</a>
+                <a href="bundles.html"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">Bundles</a>
+                <a href="team.html"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">Our
+                    Team</a>
+                <a href="blog.html"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">Blog</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="flex flex-col items-center px-4 py-8 border-b-2 border-gray-100">
+        <!-- Header Section -->
+        <div class="bg-gray-100 rounded-full px-4 py-1 mb-4 text-sm font-medium text-black border border-gray-500">
+            ABW MARKETING
+        </div>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-yellow-400 text-center">
+            Good Thinking <span class="text-blue-600">Good Marketing</span>
+        </h1>
+
+        <!-- Content Section -->
+        <div class="flex flex-wrap md:flex-nowrap items-center gap- mt-8 max-w-7xl mx-auto">
+            <!-- Text Section -->
+            <div class="w-full md:flex-1 text-left px-4">
+                <p class="text-gray-600 mb-4" id="line1">
+
+                </p>
+                <p class="text-gray-600 mb-6" id="line2">
+
+                </p>
+                <p class="text-black italic font-bold mb-6" id="author">
+
+                </p>
+                <a href="contactus.html"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-md shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2">
+                    Get Quotation
+                </a>
+            </div>
+
+
+            <!-- Image Section -->
+            <div class="w-full md:flex-1 flex items-center justify-center px-4 mt-6 md:mt-0">
+                <img class="max-h-96 w-full md:w-auto object-cover rounded-lg" src="assets/images/about.png"
+                    alt="Marketing Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="px-4 py-16 border-b-2 border-gray-100">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-8 text-yellow-400">
+            Our Services
+        </h2>
+        <div id="services-container"
+            class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4 px-4 py-8 max-w-7xl mx-auto">
+            <!-- Cards -->
+        </div>
+        <div class="text-center mt-6">
+            <a href="services.html"
+                class="bg-blue-600 text-white px-6 py-3 rounded-md shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2">
+                See More Services
+            </a>
+        </div>
+    </section>
+
+    <section class=" overflow-hidden px-6 py-4 sm:py-4 lg:px-8" id="testimonials-section">
+        <div class="mx-auto max-w-2xl lg:max-w-4xl relative">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center text-yellow-400">
+                Testimonials
+            </h2>
+            <div id="testimonials-container"
+                class="relative mt-6 mb-12 text-center p-6 h-[300px] flex items-center justify-center">
+                <!-- Testimonial cards will be dynamically inserted here -->
+            </div>
+            <!-- Navigation Button (Right Arrow) -->
+            <button id="next-testimonial"
+                class="absolute top-3/4 right-[-40px] transform -translate-y-1/2 bg-gray-800 font-sans text-white p-2 rounded shadow-lg hover:bg-gray-900 transition">
+                &gt; <!-- Right arrow icon -->
+            </button>
+        </div>
+
+        <div>
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <h2 class="text-center text-lg/8 font-semibold text-blue-600">Our Partners</h2>
+                <div id="partners-container" class="mx-auto mt-10 flex flex-wrap justify-center items-center gap-6">
+                    <!-- Partner logos will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-gray-900 text-white py-10 mt-10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <img id="company-logo" class="h-12 mb-4">
+                    <p id="company-description" class="text-gray-400"></p>
+                </div>
+    
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-yellow-400 mb-4">Quick Links</h3>
+                    <ul id="quick-links" class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Our Services</a></li>
+                        <li><a href="bundles.html" class="text-gray-400 hover:text-white">Bundles</a></li>
+                        <li><a href="team.html" class="text-gray-400 hover:text-white">Our Team</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white">Blog</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold text-yellow-400 mb-4">Contact Us</h3>
+                    <p id="contact-location" class="text-gray-400"></p>
+                    <p id="contact-phone" class="text-gray-400"></p>
+                    <p>For Marketing Inquiries:</p>
+                    <p id="contact-marketing" class="text-gray-400"></p>
+                    <p>For Design Enquiries:</p>
+                    <p id="contact-design" class="text-gray-400"></p>
+                </div>
+    
+                <!-- Social Media -->
+                <div>
+                    <h3 class="text-lg font-semibold text-yellow-400 mb-4">Follow Us</h3>
+                    <div class="flex space-x-4" id="social-links"></div>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="text-center text-gray-500 text-sm mt-8 border-t border-gray-700 pt-4">
+                &copy; 2024 ABW Marketing. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

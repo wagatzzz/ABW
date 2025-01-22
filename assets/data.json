@@ -1,0 +1,208 @@
+{
+    "aboutUs": {
+      "line1": "We are an innovative social media marketing agency helping businesses craft compelling brand narrative founded in 2020 as Catchy Found Digital and later merged with the Mother Company Africa Business Warriors.",
+      "line2": "ABW Marketing is a trailblazing social media marketing agency at the forefront of crafting compelling brand narratives for businesses. Led by a team of innovative minds, we are dedicated to redefining digital marketing strategies and leveraging the power of social media to elevate brands to new heights. With a deep understanding of the ever-evolving digital landscape, we harness creativity and expertise to engage audiences, build brand loyalty, and drive measurable results.",
+      "author": "Sylvia Kaberia, CEO"
+    },
+
+    "services": [
+    {
+      "title": "Social Media Strategy Development",
+      "image": "assets/images/Social Media Strategy Development.png",
+      "description": "Develop comprehensive strategies tailored to your business goals.",
+      "fdescription": "At ABW Marketing, we begin with a comprehensive social media strategy tailored to your brand’s unique needs and goals. Our experts conduct in-depth audience research and segmentation to identify the most effective ways to engage your target market. We also perform a thorough competitor analysis to understand the landscape and uncover opportunities for differentiation. Our strategic planning ensures that every action we take aligns with your broader business objectives, positioning your brand for success across all social platforms."
+    },
+    {
+      "title": "Content Creation and Management",
+      "image": "assets/images/Content Creation and Management.png",
+      "description": "Create and manage engaging content across platforms.",
+      "fdescription": "Creating compelling content is at the heart of our services at ABW Marketing. Our creative team excels in graphic design, visual content creation, copywriting, and video production. We develop engaging content that resonates with your audience and reflects your brand’s voice and values. We meticulously plan content calendars to ensure a consistent and strategic posting schedule. From captivating graphics to thought-provoking articles and engaging videos, we handle every aspect of content development and management to keep your social media channels vibrant and active."
+    },
+    {
+      "title": "Web Design and Development",
+      "image": "assets/images/Web Design and Development.png",
+      "description": "Design and develop responsive and user-friendly websites.",
+      "fdescription": "A robust online presence starts with a well-designed website. We offer professional web design and development services tailored to your brand’s needs. We create visually appealing, user-friendly websites that are optimized for search engines and mobile devices. Our team ensures that your website not only looks great but also provides an intuitive and seamless user experience. From e-commerce platforms to corporate websites, we build sites that drive engagement and conversions."
+    },
+    {
+      "title": "Social Media Account Setup and Optimization",
+      "image": "assets/images/Social Media Account Setup and Optimization.png",
+      "description": "Optimize your accounts for maximum visibility and engagement.",
+      "fdescription": "Setting up and optimizing your social media accounts is crucial for making a strong first impression. At ABW Marketing, we create and refine your social media profiles to ensure they are fully optimized for visibility and engagement. This includes crafting compelling bios, selecting the perfect profile and cover photos, and making platform-specific adjustments to maximize each network’s potential. Our goal is to create professional, appealing, and discoverable profiles that attract and retain followers."
+    },
+    {
+      "title": "Social Media Training and Consulting",
+      "image": "assets/images/Social Media Training and Consulting.webp",
+      "description": "Train your team to excel in social media marketing.",
+      "fdescription": "Empowering your team with the skills and knowledge to manage social media effectively is part of our mission at ABW Marketing. We offer tailored workshops and training sessions that cover best practices, emerging trends, and strategic insights. Our ongoing consulting and support services ensure that your team stays updated and confident in navigating the ever-evolving social media landscape. We provide hands-on guidance to help you achieve your marketing objectives."
+    },
+    {
+      "title": "Social Media Advertising",
+      "image": "assets/images/Social Media Advertising.png",
+      "description": "Run targeted ad campaigns to drive growth and conversions.",
+      "fdescription": "We specialize in creating and managing targeted social media advertising campaigns. We develop strategic ad campaigns that align with your marketing goals, from increasing brand awareness to driving sales. Our team expertly handles ad placements, budget management, and bidding strategies to ensure optimal performance. We design eye-catching ads and craft persuasive copy to captivate your audience. Throughout the campaign, we monitor performance and provide detailed reports, making data-driven adjustments to maximize ROI."
+    },
+    {
+      "title": "Community Management",
+      "image": "assets/images/Community Management.png",
+      "description": "Engage and grow your online community effectively.",
+      "fdescription": "Engaging with your audience is essential for building a loyal online community. ABW Marketing provides comprehensive community management services, including responding to comments and messages, fostering conversations, and managing customer feedback. We actively engage with your followers to create a positive and interactive environment. Our team handles all aspects of community management, ensuring that your brand maintains a strong, responsive, and authentic presence on social media."
+    },
+    {
+      "title": "Influencer Marketing",
+      "image": "assets/images/Influencer Marketing.png",
+      "description": "Collaborate with influencers to expand your reach.",
+      "fdescription": "Leveraging the power of influencers can significantly amplify your brand’s reach. At ABW Marketing, we identify and partner with relevant influencers who align with your brand values and appeal to your target audience. We manage the entire influencer marketing process, from campaign planning and execution to performance monitoring. By collaborating with influencers, we help you build trust and credibility, driving engagement and conversions through authentic endorsements."
+    },
+    {
+      "title": "Analytics and Reporting",
+      "image": "assets/images/Analytics and Reporting.png",
+      "description": "Track performance with detailed analytics and reports.",
+      "fdescription": "Data-driven insights are crucial for refining your social media strategy. We provide regular performance reports that offer a clear view of your social media metrics. We analyze engagement, reach, conversion rates, and other key indicators to gauge the effectiveness of our efforts. Our detailed reports include actionable insights and recommendations, helping you understand what works and what needs improvement. We use these insights to continuously optimize your social media presence and achieve your marketing goals."
+    },
+    {
+      "title": "SEO and Social Media Integration",
+      "image": "assets/images/SEO and Social Media Integration.png",
+      "description": "Integrate SEO strategies with social media for better results.",
+      "fdescription": "Integrating social media with your broader SEO strategy enhances your online presence. We optimize your social media profiles for search engines and ensures that your social media efforts complement your SEO goals. We implement strategies that improve your search rankings, increase visibility, and drive traffic to your website. By seamlessly blending SEO and social media, we create a cohesive digital marketing approach that maximizes your brand’s reach and impact."
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "We were struggling to reach our target audience until we teamed up with ABW Marketing. Their deep understanding of the market and their ability to craft compelling campaigns have been invaluable. The team’s responsiveness and commitment to our success are unmatched. Since working with ABW, our sales have grown by 30%, and we couldn’t be happier. They truly are a partner in our success.",
+      "name": "Mangu Auto & Hardware",
+      "position": "Client"
+    },
+    {
+      "text": "ABW Marketing has been a fantastic partner for HC Pads Kenya. Their strategic approach to online marketing has helped us reach a wider audience and increase our customer base. They took the time to understand our unique needs and tailored a marketing plan that delivered impressive results. Our brand awareness has soared, and we’re now seeing a steady growth in sales. We’re thrilled with the results and look forward to continuing our partnership with ABW Marketing.",
+      "name": "HC Pads Kenya",
+      "position": "Client"
+    },
+    {
+      "text": "Working with ABW Marketing has been a game-changer for our business. Their innovative approach to digital marketing helped us increase our online visibility significantly. Their team truly understands our industry and knows how to tailor strategies that drive results. We highly recommend them to anyone looking to take their business to the next level.",
+      "name": "EAC Logistics",
+      "position": "Client"
+    },
+    {
+      "text": "ABW Marketing has been instrumental in transforming our brand image. Their creative strategies and expert advice have not only boosted our social media presence but also increased foot traffic to our showroom. We’ve seen a noticeable uptick in sales since partnering with them. Their dedication and professionalism make them a pleasure to work with. Thank you, ABW Marketing, for helping us accelerate our growth!",
+      "name": "Stantech Motors",
+      "position": "Client"
+    }
+  ],
+  "partners": [
+    { "logo": "assets/images/AfricaBusinessWarriors.png", "name": "Africa Business Warriors" },
+    { "logo": "assets/images/eDigital-Connect-Summit.png", "name": "eDigital-Connect-Summit" },
+    { "logo": "assets/images/ABW-Edigital-Connect.png", "name": "ABW-Edigital-Connect" }
+  ],
+  "companyInfo": {
+    "logo": "assets/images/logo.png",
+    "description": "Helping brands grow through smart marketing strategies."
+  },
+  "contactInfo": {
+    "location": "📍 Desoto Business Square, Ruiru",
+    "phone": "📞 (+254) 745 570 963",
+    "marketingEmail": "📧 marketing@abwmarketing.co.ke",
+    "designEmail": "📧 design@abwmarketing.co.ke"
+  },
+  "socialLinks": {
+    "facebook": "https://facebook.com/yourpage",
+    "linkedin": "https://linkedin.com/in/yourpage",
+    "instagram": "https://instagram.com/yourpage"
+  },
+  "packages": [
+    {
+      "title": "Start-up Elevator",
+      "services": [
+        "Social media account setup on Facebook, Instagram, Twitter, and LinkedIn",
+        "Profile optimization and branding",
+        "Content creation and curation for 3 posts per week per platform",
+        "Community management and engagement",
+        "Monthly analytics report"
+      ]
+    },
+    {
+      "title": "Digital Accelerator",
+      "services": [
+        "Social media account setup on Facebook, Instagram, Twitter, and LinkedIn",
+        "Profile optimization and branding",
+        "Content creation and curation for 6 posts per week per platform",
+        "Community management and engagement",
+        "Monthly analytics report",
+        "Ad management (1 campaign per month)"
+      ]
+    },
+    {
+      "title": "Medium Enterprise",
+      "recommended": true,
+      "services": [
+        "Social media account setup on Facebook, Instagram, Twitter, and LinkedIn",
+        "Profile optimization and branding",
+        "Content creation and curation for 8 posts per week per platform",
+        "Community management and engagement",
+        "Monthly analytics report",
+        "Ad management (2 campaigns per month)",
+        "Influencer partnership and collaboration",
+        "Photography - Once a month"
+      ]
+    },
+    {
+      "title": "Large Enterprise",
+      "recommended": true,
+      "services": [
+        "Social media account setup on Facebook, Instagram, Twitter, and LinkedIn",
+        "Profile optimization and branding",
+        "Content creation and curation for 8 posts per week per platform",
+        "Community management and engagement",
+        "Monthly analytics report",
+        "Ad management (3 campaigns per month)",
+        "Influencer partnership and collaboration",
+        "Photography - Twice a month",
+        "Social Media strategy and planning",
+        "Custom social media campaign strategies"
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "name": "Sylvia Kaberia",
+      "position": "Founder/CEO Digital Brand Strategist",
+      "image": "assets/images/Sylvia-k.jpg"
+    },
+    {
+      "name": "Wairagu Wangari",
+      "position": "Lead Graphic Designer",
+      "image": "assets/images/Kevin-2.jpg"
+    },
+    {
+      "name": "Ndegwa Njoroge",
+      "position": "Social Media Strategist",
+      "image": "assets/images/Bryan.jpg"
+    },
+    {
+      "name": "Virginia Wangari",
+      "position": "Social Media Manager",
+      "image": "assets/images/Virginia.png"
+    },
+    {
+      "name": "Geoffrey Simiyu",
+      "position": "Content Creator/Videographer",
+      "image": "assets/images/Simiyu.jpg"
+    },
+    {
+      "name": "Elvis Munene",
+      "position": "Photographer",
+      "image": "assets/images/elvis.jpg"
+    },
+    {
+      "name": "Elizabeth Mbula",
+      "position": "Community/Manager",
+      "image": "assets/images/Liz.png"
+    },
+    {
+      "name": "Keren Kirimi",
+      "position": "Business Developer",
+      "image": "assets/images/Keren.jpg"
+    }
+  ]
+  }
+
