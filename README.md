@@ -1,1 +1,1 @@
-https://abw-website.netlify.app/team
+https://abw-website.netlify.app
